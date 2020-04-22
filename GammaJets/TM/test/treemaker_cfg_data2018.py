@@ -46,8 +46,7 @@ process.updatedPatJetsUpdatedJEC.userData.userFloats.src = []
 readFiles = cms.untracked.vstring()
 secFiles = cms.untracked.vstring()
 readFiles.extend( [
-	#"root://cms-xrd-global.cern.ch//store/data/Run2018A/EGamma/MINIAOD/17Sep2018-v2/270000/0A89A3B2-9CDC-884E-B8FC-2E5310FDBA13.root",
-	"root://cms-xrd-global.cern.ch//store/data/Run2018D/EGamma/MINIAOD/PromptReco-v2/000/323/488/00000/61B5DADE-EC69-7E47-A227-D808D31BB4C9.root",
+	"root://cms-xrd-global.cern.ch//store/data/Run2018A/EGamma/MINIAOD/17Sep2018-v2/270000/0A89A3B2-9CDC-884E-B8FC-2E5310FDBA13.root",
     ] );
 
 process.source = cms.Source("PoolSource",
