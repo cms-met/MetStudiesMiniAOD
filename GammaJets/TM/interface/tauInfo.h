@@ -12,8 +12,8 @@
 #include "DataFormats/Common/interface/Handle.h"
 #include "DataFormats/PatCandidates/interface/Tau.h"
 #include "DataFormats/Math/interface/LorentzVector.h"
-#include "TreeMaker/TM/interface/utils.h"
-#include "TreeMaker/TM/interface/baseTree.h"
+#include "GammaJets/TM/interface/utils.h"
+#include "GammaJets/TM/interface/baseTree.h"
 
 class tauInfo : public baseTree{
 

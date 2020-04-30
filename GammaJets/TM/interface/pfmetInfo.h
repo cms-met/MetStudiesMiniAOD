@@ -14,8 +14,8 @@
 #include "DataFormats/Math/interface/LorentzVector.h"
 #include "DataFormats/Common/interface/TriggerResults.h"
 #include "FWCore/Common/interface/TriggerNames.h"
-#include "TreeMaker/TM/interface/utils.h"
-#include "TreeMaker/TM/interface/baseTree.h"
+#include "GammaJets/TM/interface/utils.h"
+#include "GammaJets/TM/interface/baseTree.h"
 
 
 class pfmetInfo : public baseTree{

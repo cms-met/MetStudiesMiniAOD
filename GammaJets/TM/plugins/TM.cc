@@ -2,7 +2,7 @@
 #include <memory>
 #include <string>
 
-#include "TreeMaker/TM/interface/TM.h"
+#include "GammaJets/TM/interface/TM.h"
 #include "FWCore/ServiceRegistry/interface/Service.h"
 #include "CommonTools/UtilAlgos/interface/TFileService.h"
 #include "DataFormats/Common/interface/TriggerResults.h"

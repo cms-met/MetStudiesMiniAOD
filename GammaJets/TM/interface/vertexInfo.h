@@ -13,8 +13,8 @@
 #include "DataFormats/VertexReco/interface/Vertex.h"
 #include "DataFormats/VertexReco/interface/VertexFwd.h"
 #include "RecoVertex/VertexPrimitives/interface/TransientVertex.h"
-#include "TreeMaker/TM/interface/utils.h"
-#include "TreeMaker/TM/interface/baseTree.h"
+#include "GammaJets/TM/interface/utils.h"
+#include "GammaJets/TM/interface/baseTree.h"
 
 
 class vertexInfo : public baseTree{

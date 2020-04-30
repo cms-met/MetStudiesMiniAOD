@@ -13,8 +13,8 @@
 #include "FWCore/Framework/interface/EventSetup.h"
 #include "DataFormats/Common/interface/Handle.h"
 #include "DataFormats/Math/interface/LorentzVector.h"
-#include "TreeMaker/TM/interface/utils.h"
-#include "TreeMaker/TM/interface/baseTree.h"
+#include "GammaJets/TM/interface/utils.h"
+#include "GammaJets/TM/interface/baseTree.h"
 
 
 class rhoInfo : public baseTree{
