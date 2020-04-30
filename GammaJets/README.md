@@ -1,4 +1,4 @@
-#### Making ntuples
+### Making ntuples
 Ntuplizer for the gamma+jets studies is located in the `TM` folder, which creates a tree with necessary branches for photon, jet and lepton identification.
 
 Three configuration files are used: `test/treemaker_cfg_mc2018.py`, `test/treemaker_cfg_data2018.py` and `test/treemaker_cfg_data2018_prompt.py` depending on type of dataset.
@@ -49,7 +49,7 @@ svn export https://github.com/pallabidas/MetStudiesMiniAOD/trunk/GammaJets
 scram b -j 8
 ```
 
-#### Making selected events tree
+### Making selected events tree
 
 The folder `PostProc` folder contains the necessary scripts for post-processing data and MC ntuples and calculating the variables for Type 1 corrected PF MET.
 
@@ -59,7 +59,7 @@ The first step to making the selected events trees (`mettree`) is to create the 
 
 These are kept inside the `PostProc/PileUp` folder.
 
-Note: the official recipe for pileup histogram is given here `https://twiki.cern.ch/twiki/bin/viewauth/CMS/PileupJSONFileforData` which is used to produce the `MyDataPileupHistogram2018.root` file.
+Note: the official recipe for pileup histogram is given here https://twiki.cern.ch/twiki/bin/viewauth/CMS/PileupJSONFileforData which is used to produce the `MyDataPileupHistogram2018.root` file.
 
 After creating the weights, proceed to the next step for event selection.
 
@@ -73,7 +73,7 @@ g++ -g  -Wno-deprecated ana.C -o out.exe  -I$ROOTSYS/include -L$ROOTSYS/lib `roo
 ```
 The `ntuples_files.list` should contain the full path to the ntuple files, sample wise.
 
-#### Making histograms
+### Making histograms
 
 Scripts for making histograms from the `mettree` branches are kept inside `MakeHisto` folder.
 
@@ -86,7 +86,7 @@ g++ -Wno-deprecated scale_data.C -o dummy.exe  -I$ROOTSYS/include -L$ROOTSYS/lib
 ./dummy.exe output.root histo.root
 ```
 
-###### Calculating scale and resolution
+#### Calculating scale and resolution
 
 The scale and resolution from data are calculated using `Mean` and `RMS` methods implemented in ROOT.
 
@@ -100,7 +100,7 @@ After creating the response hitogram the `scale_data.C` script inside `Resolutio
 
 `NV` and `QT` folder refer to number of vertices and photon transverse momentum respectively, which are used as x-axis for two sets of resolution plots.
 
-#### Making plots
+### Making plots
 
 The `Plot` folder contains the necessary scripts for making the different plots: data/MC agreements, scale and resolutions for data.
 
