@@ -1,4 +1,4 @@
-#include "TreeMaker/TM/interface/pileUpInfo.h"
+#include "GammaJets/TM/interface/pileUpInfo.h"
 
 pileUpInfo::pileUpInfo(std::string name, TTree* tree, bool debug, const pset& iConfig):baseTree(name,tree,debug){
   if(debug) std::cout<<"in pileUpInfo constructor"<<std::endl;

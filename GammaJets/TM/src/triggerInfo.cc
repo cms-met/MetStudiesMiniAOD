@@ -1,4 +1,4 @@
-#include "TreeMaker/TM/interface/triggerInfo.h"
+#include "GammaJets/TM/interface/triggerInfo.h"
 
 triggerInfo::triggerInfo(std::string name, TTree* tree, bool debug, const pset& iConfig):baseTree(name,tree,debug){
   if(debug) std::cout<<"in triggerInfo constructor"<<std::endl;

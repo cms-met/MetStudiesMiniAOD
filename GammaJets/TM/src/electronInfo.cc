@@ -1,4 +1,4 @@
-#include "TreeMaker/TM/interface/electronInfo.h"
+#include "GammaJets/TM/interface/electronInfo.h"
 
 electronInfo::electronInfo(std::string name, TTree* tree, bool debug, const pset& iConfig):baseTree(name,tree,debug){
   if(debug) std::cout<<"in electron constructor"<<std::endl;

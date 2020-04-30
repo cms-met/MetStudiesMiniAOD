@@ -1,4 +1,4 @@
-#include "TreeMaker/TM/interface/tauInfo.h"
+#include "GammaJets/TM/interface/tauInfo.h"
 #include "DataFormats/PatCandidates/interface/PackedCandidate.h"
 
 

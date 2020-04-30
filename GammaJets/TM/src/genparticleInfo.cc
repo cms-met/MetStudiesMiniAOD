@@ -1,4 +1,4 @@
-#include "TreeMaker/TM/interface/genparticleInfo.h"
+#include "GammaJets/TM/interface/genparticleInfo.h"
 
 genparticleInfo::genparticleInfo(std::string name, TTree* tree, bool debug, const pset& iConfig):baseTree(name,tree,debug){
   if(debug) std::cout<<"in genparticle constructor"<<std::endl;

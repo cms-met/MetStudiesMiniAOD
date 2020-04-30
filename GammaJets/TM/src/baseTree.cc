@@ -1,4 +1,4 @@
-#include "TreeMaker/TM/interface/baseTree.h"
+#include "GammaJets/TM/interface/baseTree.h"
 
 baseTree::baseTree(std::string identifier, TTree* tree, bool debug){
   identifier_  = identifier; 

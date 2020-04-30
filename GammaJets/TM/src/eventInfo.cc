@@ -1,4 +1,4 @@
-#include "TreeMaker/TM/interface/eventInfo.h"
+#include "GammaJets/TM/interface/eventInfo.h"
 
 eventInfo::eventInfo(std::string name, TTree* tree, bool debug, const pset& iConfig):baseTree(name,tree,debug){
   if(debug) std::cout<<"in eventInfo constructor"<<std::endl;
